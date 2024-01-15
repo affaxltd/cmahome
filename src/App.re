@@ -5,7 +5,7 @@ module App = {
       React.useState(() => false);
 
     let configuration =
-      Create_melange_app.Configuration.make(
+      Cma_configuration.Configuration.make(
         ~name="cmahome",
         ~directory="/home/affax/projects/cmahome",
         ~node_package_manager=Bun,
@@ -50,7 +50,7 @@ module App = {
           className="mb-3 border-b-2 bg-gradient-to-r from-[#ee99a0] to-[#f5a97f] bg-clip-text text-4xl  font-black text-transparent pb-1">
           {React.string("Welcome to Melange & OCaml!")}
         </h2>
-        {show_configuration ? <Configuration configuration /> : React.null}
+        {show_configuration ? <Components.Configuration configuration /> : React.null}
       </div>
     </>;
   };
