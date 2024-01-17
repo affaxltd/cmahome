@@ -1,6 +1,6 @@
 [@react.component]
 let make = () => {
-  <div className="text-[#b8c0e0] text-2xl">
+  <main className="text-[#b8c0e0] text-2xl">
     <h3 className="font-bold text-3xl mb-2">
       <>
         {React.string("Home Page:")}
@@ -10,5 +10,5 @@ let make = () => {
         </span>
       </>
     </h3>
-  </div>;
+  </main>;
 };
