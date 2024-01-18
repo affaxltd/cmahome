@@ -2,7 +2,7 @@ module App = {
   open Components;
   [@react.component]
   let make = () => {
-    <> <Header /> <Sidebar /> <HomePage /> <Footer /> </>;
+    <> <Header /> <HomePage /> <Footer /> </>;
   };
 };
 
