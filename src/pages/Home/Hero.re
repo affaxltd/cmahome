@@ -10,7 +10,7 @@ let make = () => {
               <div className="flex w-full flex-col items-center gap-4">
                 <div className="flex flex-col items-start justify-between">
                   <h1
-                    className="text-center text-4xl font-bold tracking-tight text-ctp-rosewater sm:text-6xl sm:tracking-tight lg:text-[4rem] xl:text-[6rem] xl:tracking-tight 2xl:text-[6.5rem]">
+                    className="text-center text-4xl font-bold tracking-tight sm:text-6xl sm:tracking-tight lg:text-[4rem] xl:text-[6rem] xl:tracking-tight 2xl:text-[6.5rem]">
                     {React.string("The best way to start a")}
                     <span className="text-ctp-peach">
                       {React.string(" OCaml,")}
@@ -29,14 +29,14 @@ let make = () => {
                       href="/en/introduction"
                       target="_self"
                       rel="noopener noreferrer"
-                      className="rounded-full bg-gray-300 hover:bg-transparent hover:text-ctp-rosewater text-slate-800 group inline-flex items-center px-3 lg:px-4 lg:py-3 md:px-5 py-2 text-sm md:text-base font-semibold cursor-pointer hover:no-underline transition-colors">
+                      className="rounded-full bg-gray-300 hover:bg-transparent hover:text-ctp-text text-slate-800 group inline-flex items-center px-3 lg:px-4 lg:py-3 md:px-5 py-2 text-sm md:text-base font-semibold cursor-pointer hover:no-underline transition-colors">
                       {React.string("Documentation")}
                     </a>
                     <a
                       href="https://github.com-oss/create-app"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className=" rounded-full bg-white/10 hover:bg-white/20 text-ctp-rosewater  inline-flex items-center px-3 lg:px-4 lg:py-3 md:px-5 py-2 text-sm md:text-base font-semibold cursor-pointer hover:no-underline transition-colors">
+                      className=" rounded-full bg-white/10 hover:bg-white/20   inline-flex items-center px-3 lg:px-4 lg:py-3 md:px-5 py-2 text-sm md:text-base font-semibold cursor-pointer hover:no-underline transition-colors">
                       {React.string("GitHub")}
                     </a>
                   </div>
@@ -44,7 +44,7 @@ let make = () => {
                     <div className="relative mt-4 flex h-full xl:mt-8">
                       <div
                         className="relative flex items-center rounded-lg border border-purple-200/20 bg-purple-100/10 px-2 py-2 text-sm md:px-3 md:py-3 md:text-lg lg:px-5 lg:py-4 lg:text-xl">
-                        <code className="text-ctp-rosewater">
+                        <code className="">
                           {React.string("npm create melange-app@latest")}
                         </code>
                       </div>

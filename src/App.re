@@ -1,8 +1,8 @@
 module App = {
-  open Components;
+  open Pages;
   [@react.component]
   let make = () => {
-    <> <Header /> <HomePage /> <Footer /> </>;
+    <> <HomePage /> </>;
   };
 };
 
