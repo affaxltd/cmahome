@@ -29,7 +29,7 @@ let make = () => {
                       href="/en/introduction"
                       target="_self"
                       rel="noopener noreferrer"
-                      className="rounded-full bg-gray-300 hover:bg-transparent hover:text-ctp-text text-slate-800 group inline-flex items-center px-3 lg:px-4 lg:py-3 md:px-5 py-2 text-sm md:text-base font-semibold cursor-pointer hover:no-underline transition-colors">
+                      className="rounded-full bg-gray-300 hover:bg-transparent hover:text-ctp-rosewater text-slate-800 group inline-flex items-center px-3 lg:px-4 lg:py-3 md:px-5 py-2 text-sm md:text-base font-semibold cursor-pointer hover:no-underline transition-colors">
                       {React.string("Documentation")}
                     </a>
                     <a
