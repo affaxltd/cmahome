@@ -1,6 +1,6 @@
 module HomePage = {
   [@react.component]
   let make = () => {
-    <> <Hero /> </>;
+    <> <Hero /> <About /> </>;
   };
 };
